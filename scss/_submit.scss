@@ -1,3 +1,50 @@
 .submit_section {
   display: grid;
+  grid-gap: 1rem;
+  margin: 1.6rem;
+}
+
+.submit_offer {
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 0.5rem;
+  padding: 1rem 4rem;
+  text-align: center;
+}
+
+.submit_inputs {
+  background-color: white;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1.6rem;
+}
+
+.submit_input {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.submit_button {
+  border: none;
+  border-radius: 0.25rem;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+#terms_of_use {
+  color: grey;
+  font-size: 0.65rem;
+  margin: 0 2rem;
+  text-align: center;
+}
+
+#terms_of_use a {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: 700;
 }
