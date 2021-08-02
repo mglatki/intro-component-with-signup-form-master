@@ -79,3 +79,9 @@ html {
   color: #ff7a7a;
   font-weight: 700;
 }
+
+@media (min-width: 600px) {
+  html {
+    background-image: url(../images/bg-intro-desktop.png);
+  }
+}

@@ -1,3 +1,9 @@
 @use 'base';
 @use 'hero';
 @use 'submit';
+
+@media (min-width: 600px) {
+  html {
+    background-image: url(../images/bg-intro-desktop.png);
+  }
+}
